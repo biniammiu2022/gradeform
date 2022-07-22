@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>biniam</title>
+    <link rel="stylesheet" href="grade.css" />
+  </head>
+  <body>
+    <div class="container">  
+       <h1> Retrieve Your Grade </h1> 
+      <hr>  
+
+    <form action="http://mumstudents.org/params.php">
+      <div class="textfield">
+        <label for="fname"> Name </label><br />
+        <input type="text" id="fname" name="fname" value="Name" /><br />
+        <label for="flastname">Lastname</label><br />
+        <input type="text" id="stuid" name="stuid" value="stu id" /><br />
+        <label for="course">Student Id</label><br />
+        <input type="text" id="course" name="course" value="course" /><br />
+        <label for="course">Course</label><br />
+        <input
+          type="text"
+          id="flastname"
+          name="flastname"
+          value="Lastname"
+        /><br />
+      
+      <form>
+        <fieldset>
+          <legend>which entry are you?</legend>
+          <input type="radio" id="feb-2022" name="entrydate" value="feb-2022" />
+          <label for="html">feb-2022</label><br />
+          <input type="radio" id="may-2022" name="entrydate" value="may-2022" />
+          <label for="css">may-2022</label><br />
+          <input type="radio" id="jan-2022" name="entrydate" value="jan-2022" />
+          <label for="javascript">Jan-2022</label>
+        </fieldset>
+      </form>
+      <form>
+        <fieldset class="checkbox">
+          <legend>is yours?</legend>
+          <input type="checkbox" id="owner" name="owner" value="owner" />
+          <label for="one">yes mine</label><br />
+        </fieldset>
+      </form>
+      <div class="dropdawn">
+        <h1>The select course</h1>
+
+        <p>Select for which course from a drop-down list.</p>
+
+        <form>
+          <label for="course">Choose a course:</label>
+          <select class="droplist" name="course" id="course">
+            <option value="FPP">FPP</option>
+            <option value="mpp">MPP</option>
+            <option value="wap">WAP</option>
+            <option value="waa">WAA</option>
+          </select>
+          <br /><br />
+        </form>
+      </div>
+      <input type="submit" value="Submit" /><br />
+    </form>
+  </div>
+
+    <p>Getgrade!</p>
+  </body>
+</html>

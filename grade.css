@@ -1,0 +1,44 @@
+#header{margin: 20px;
+    font-size: 30pt;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-seri;
+    width:420pt;}
+.textfield{
+    margin: 20px;
+    font-size: 20pt;
+    }
+    input{
+       margin: 3px;
+        background-color: rgb(241, 202, 222);
+     font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13pt; color: rgb(24, 2, 2);
+    }
+    .checkbox{margin: 20px;
+   width: 19%;
+        color: rgb(104, 84, 84);
+        size: 20pt;
+    font-size: 20px;
+    }
+   fieldset{font-size: 16pt;
+    margin: 20px;
+    border: 1px rgb(11, 6, 2) double;
+    width: 20%;
+   }
+   .droplist{
+    font-size: 15pt;
+    background-color: rgb(210, 173, 173);
+   }
+   label{
+    font-size: 15pt;
+   }
+   body{ 
+    
+    margin: 30pt;
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: rgb(223, 207, 210);  
+}
+
+    container {  
+        padding: 50px;  
+      background-color: lightblue;  
+    }  
